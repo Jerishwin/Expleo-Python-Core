@@ -60,3 +60,13 @@ print(type(sum1))
 sum1 = float(sum1)
 print(sum1)
 print(type(sum1))
+
+fname=input("Enter Your Name: ")
+age = int(input("Enter your age: "))
+print(type(age))
+
+name1 = "Alice"
+age1=12
+
+print(f"My name is {name1} and my age is {age1}")
+print("apple","orange","mango",sep="=>",end="✅")
