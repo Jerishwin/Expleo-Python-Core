@@ -1,0 +1,8 @@
+myobj = open("Test.txt",'r')
+a = myobj.read(0)
+print(a)
+a = myobj.readline()
+print(a)
+a = myobj.readlines()
+print(a)
+myobj.close()
